@@ -129,11 +129,11 @@ export function App() {
         )}
       </Disclosure>
 
-      <div class="flex p-5">
-        <div class="w-3/4 bg-gray-500 h-12">
+      <div class="flex flex-wrap p-5">
+        <div class="sm:w-1/1 md:w-1/1 lg:w-3/4 xl:w-3/4 bg-gray-500 h-12">
           <span>© 2022 - Julio Thomazelli - All rights reserved.</span>
         </div>
-        <div class="w-1/4 bg-gray-400 h-12">
+        <div class="sm:w-1/1 md:w-1/1 lg:w-1/4 xl:w-1/4 bg-gray-400 h-12">
           <span>© 2022 - Julio Thomazelli - All rights reserved.</span>
         </div>
       </div>

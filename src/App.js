@@ -129,12 +129,27 @@ export function App() {
         )}
       </Disclosure>
 
-      <div class="flex flex-wrap p-3">
-        <div class="w-full md:w-3/4 bg-gray-500 p-4 text-center text-gray-200">
-
+      <div className="flex flex-wrap m-3">
+        <div className="w-full md:w-3/5 bg-gray-300 p-4 text-center text-gray-700">
+          <div className="text-2xl">
+            <span>Códigos limpos e organizados.</span>
+          </div>
         </div>
-        <div class="w-full md:w-1/4 bg-gray-400 p-4 text-center text-gray-700">
-          <span>Bem vindos</span>
+        <div className="w-full md:w-2/5 bg-gray-400 p-4 text-center text-gray-700">
+          <div className="flex flex-wrap">
+            <div className="w-full md:w-1/4 bg-gray-500 text-center text-gray-200 rounded-xl	">
+              <img className="h-full w-full" src="./assets/photo01.jpg" alt=""/>
+            </div>
+            <div className="w-full md:w-3/4 bg-gray-400 px-4 text-center text-gray-700">
+              <div className="text-2xl">
+                <span>Bem vindos(as)!!</span>
+              </div>
+              <p className="text-justify my-5">
+                Sejam todos bem vindos ao meu blog pessoal, meu nome é Julio, sou formado e trabalho com tecnologia há aproximadamente 6 anos.
+                Meu foco para com este blog é compartilhar experiências, conhecimentos e um pouco da minha vida pessoal e profissional.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
       

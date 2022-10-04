@@ -5,10 +5,11 @@ import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
 import Footer from "./Footer/Footer";
 
 const navigation = [
-  { name: 'Dashboard', href: '#', current: true },
-  { name: 'Team', href: '#', current: false },
-  { name: 'Projects', href: '#', current: false },
-  { name: 'Calendar', href: '#', current: false },
+  { name: 'Feed', href: '#', current: true },
+  { name: 'Carreira', href: '#', current: false },
+  { name: 'Fotos', href: '#', current: false },
+  { name: 'Contato', href: '#', current: false },
+  { name: 'Sobre', href: '#', current: false },
 ]
 
 function classNames(...classes) {
@@ -130,25 +131,73 @@ export function App() {
       </Disclosure>
 
       <div className="flex flex-wrap m-3">
-        <div className="w-full md:w-3/5 bg-gray-300 p-4 text-center text-gray-700">
-          <div className="text-2xl">
-            <span>Códigos limpos e organizados.</span>
+        <div className="w-full md:w-3/5 text-center text-gray-700">
+          <div className="p-4">
+            <article className="p-6 bg-gray rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+              <div className="flex justify-between items-center mb-5 text-gray-500">
+                <span className="text-sm">03-10-2022</span>
+              </div>
+              <h2 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"><a href="#">Códigos limpos e organizados.</a></h2>
+              <p className="mb-5 font-light text-gray-500 dark:text-gray-400 text-justify">Nos últimos anos tem se tornado um grande desáfio em companhias e empresas de software a prodnização dos códigos fontes escritos pelos seus desenvolvedores, isso se da pelo fato de que cada um deles escrevem nome de variáveis, funções, arquivos e regras da forma que mais lhe convém.</p>
+              <div className="flex justify-between items-center">
+                <div className="flex items-center space-x-4">
+                    <img className="w-7 h-7 rounded-full" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/jese-leos.png" alt="Jese Leos avatar" />
+                    <span className="font-medium dark:text-white">
+                        Julio Thomazelli
+                    </span>
+                </div>
+                <a href="#" className="inline-flex items-center font-medium text-primary-600 dark:text-primary-500 hover:underline">
+                  Leia mais
+                  <svg className="ml-2 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clipRule="evenodd"></path></svg>
+                </a>
+              </div>
+            </article>
+          </div>
+
+          <div className="p-4">
+            <article className="p-6 bg-gray rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+              <div className="flex justify-between items-center mb-5 text-gray-500">
+                <span className="text-sm">03-10-2022</span>
+              </div>
+              <h2 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"><a href="#">Códigos limpos e organizados.</a></h2>
+              <p className="mb-5 font-light text-gray-500 dark:text-gray-400 text-justify">Nos últimos anos tem se tornado um grande desáfio em companhias e empresas de software a prodnização dos códigos fontes escritos pelos seus desenvolvedores, isso se da pelo fato de que cada um deles escrevem nome de variáveis, funções, arquivos e regras da forma que mais lhe convém.</p>
+              <div className="flex justify-between items-center">
+                <div className="flex items-center space-x-4">
+                    <img className="w-7 h-7 rounded-full" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/jese-leos.png" alt="Jese Leos avatar" />
+                    <span className="font-medium dark:text-white">
+                        Julio Thomazelli
+                    </span>
+                </div>
+                <a href="#" className="inline-flex items-center font-medium text-primary-600 dark:text-primary-500 hover:underline">
+                  Leia mais
+                  <svg className="ml-2 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clipRule="evenodd"></path></svg>
+                </a>
+              </div>
+            </article>
           </div>
         </div>
-        <div className="w-full md:w-2/5 bg-gray-400 p-4 text-center text-gray-700">
-          <div className="flex flex-wrap">
-            <div className="w-full md:w-1/4 bg-gray-500 text-center text-gray-200 rounded-xl	">
-              <img className="h-full w-full" src="./assets/photo01.jpg" alt=""/>
-            </div>
-            <div className="w-full md:w-3/4 bg-gray-400 px-4 text-center text-gray-700">
-              <div className="text-2xl">
-                <span>Bem vindos(as)!!</span>
+        <div className="w-full md:w-2/5 text-center text-gray-700">
+          <div className="p-4">
+            <article className="p-6 bg-gray rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+              <div className="flex justify-between items-center mb-5 text-gray-500">
+                <span className="text-sm">03-10-2022</span>
               </div>
-              <p className="text-justify my-5">
-                Sejam todos bem vindos ao meu blog pessoal, meu nome é Julio, sou formado e trabalho com tecnologia há aproximadamente 6 anos.
-                Meu foco para com este blog é compartilhar experiências, conhecimentos e um pouco da minha vida pessoal e profissional.
-              </p>
-            </div>
+              <h2 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"><a href="#">Bem vindos(as)!</a></h2>
+              <p className="mb-5 font-light text-gray-500 dark:text-gray-400 text-justify">Sejam todos bem vindos ao meu blog pessoal, meu nome é Julio, sou formado e trabalho com tecnologia há aproximadamente 6 anos.
+                Meu foco para com este blog é compartilhar experiências, conhecimentos e um pouco da minha vida pessoal e profissional.</p>
+              <div className="flex justify-between items-center">
+                <div className="flex items-center space-x-4">
+                  <img className="w-7 h-7 rounded-full" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/jese-leos.png" alt="Jese Leos avatar" />
+                  <span className="font-medium dark:text-white">
+                      Julio Thomazelli
+                  </span>
+                </div>
+                <a href="#" className="inline-flex items-center font-medium text-primary-600 dark:text-primary-500 hover:underline">
+                  Leia mais
+                  <svg className="ml-2 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clipRule="evenodd"></path></svg>
+                </a>
+              </div>
+            </article>
           </div>
         </div>
       </div>

@@ -30,7 +30,7 @@ export function App() {
                   09/10/2022
                 </p>
                 <div className="text-gray-900 font-bold text-xl mb-2">Bem vindos(as)!</div>
-                <p className="text-gray-700 text-base">Sejam todos bem vindos ao meu blog pessoal, meu nome é Julio, sou formado e trabalho com tecnologia há aproximadamente 6 anos.
+                <p className="text-gray-700 text-base text-justify">Sejam todos bem vindos ao meu blog pessoal, meu nome é Julio, sou formado e trabalho com tecnologia há aproximadamente 6 anos.
                     Meu foco para com este blog é compartilhar experiências, conhecimentos e um pouco da minha vida pessoal e profissional.</p>
                 <br/>
                 <p className="text-gray-700 text-base">Sintam-se à vontade para conhecer um pouco sobre mim, obrigado e boa leitura.</p>

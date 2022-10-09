@@ -33,7 +33,7 @@ export function App() {
                 <p className="text-gray-700 text-base text-justify">Sejam todos bem vindos ao meu blog pessoal, meu nome é Julio, sou formado e trabalho com tecnologia há aproximadamente 6 anos.
                     Meu foco para com este blog é compartilhar experiências, conhecimentos e um pouco da minha vida pessoal e profissional.</p>
                 <br/>
-                <p className="text-gray-700 text-base">Sintam-se à vontade para conhecer um pouco sobre mim, obrigado e boa leitura.</p>
+                <p className="text-gray-700 text-base text-justify">Sintam-se à vontade para conhecer um pouco sobre mim, obrigado e boa leitura.</p>
               </div>
               <div className="flex items-center">
                 <a href="#" className="flex items-center justify-end font-medium text-decoration-line: underline">

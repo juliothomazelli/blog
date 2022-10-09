@@ -15,8 +15,11 @@ export function App() {
       <div>
         <article className="m-5 bg-gray rounded-lg border border-gray-200 shadow-md">
           <div className="lg:flex p-5">
-            <div className="h-48 lg:h-auto lg:w-48 flex-none bg-cover text-center overflow-hidden" title="Viajando em Santa Catarina na praia de Sáo Chico.">
+            <div className="h-48 lg:h-auto lg:w-48 hidden lg:block xl:block flex-none bg-cover text-center overflow-hidden" title="Viajando em Santa Catarina na praia de Sáo Chico.">
               <img src={WelcomeImageFull} className="rounded-lg"/>
+            </div>
+            <div className="h-48 lg:h-auto lg:w-48 block sm:block md:block lg:hidden xl:hidden flex-none bg-cover text-center overflow-hidden" title="Viajando em Santa Catarina na praia de Sáo Chico.">
+              <img src={WelcomeImage} className="rounded-lg"/>
             </div>
             <div className="bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col justify-between leading-normal">
               <div className="mb-8">

@@ -185,6 +185,7 @@ export function App() {
               <h2 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"><a href="#">Bem vindos(as)!</a></h2>
               <p className="mb-5 font-light text-gray-500 dark:text-gray-400 text-justify">Sejam todos bem vindos ao meu blog pessoal, meu nome é Julio, sou formado e trabalho com tecnologia há aproximadamente 6 anos.
                 Meu foco para com este blog é compartilhar experiências, conhecimentos e um pouco da minha vida pessoal e profissional.</p>
+                <div className="w-7 h-7 rounded-10 bg-logo"></div>
               <div className="flex justify-between items-center">
                 <div className="flex items-center space-x-4">
                   <img className="w-7 h-7 rounded-full" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/avatars/jese-leos.png" alt="Jese Leos avatar" />

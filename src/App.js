@@ -13,7 +13,7 @@ export function App() {
       <Header/>
 
       <div>
-        <article className="m-5 bg-gray rounded-lg border border-gray-200 shadow-md">
+        <article className="m-5 bg-gray rounded-lg border border-gray-200 shadow-2xl">
           <div className="lg:flex p-5">
             <div className="h-48 lg:h-auto lg:w-48 hidden lg:block xl:block flex-none bg-cover text-center overflow-hidden" title="Viajando em Santa Catarina na praia de Sáo Chico.">
               <img src={WelcomeImageFull} className="rounded-lg"/>

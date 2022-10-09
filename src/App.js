@@ -14,7 +14,7 @@ export function App() {
 
       <div>
         <article className="m-5 bg-gray rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
-          <div className="lg:flex dark:bg:white">
+          <div className="lg:flex p-5">
             <div className="h-48 lg:h-auto lg:w-48 flex-none bg-cover text-center overflow-hidden" title="Viajando em Santa Catarina na praia de Sáo Chico.">
               <img src={WelcomeImageFull} className="rounded-lg"/>
             </div>

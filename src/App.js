@@ -1,5 +1,5 @@
 import * as React from "react";
-import { Routes, Route, Outlet, Link } from "react-router-dom";
+import { Routes, Route, Outlet, Link, BrowserRouter } from "react-router-dom";
 import './App.css';
 
 import Home from "./pages/home";
@@ -11,21 +11,22 @@ import About from "./pages/about";
 import Footer from "./Footer/Footer";
 import Header from "./Header/Header";
 
-
-
 export default function App() {
   return (
     <div>
-      <Routes>
-        <Route path="/" element={<Layout />}>
-          <Route index element={<Home />} />
-          <Route path="about" element={<About />} />
-          <Route path="photo" element={<Photo />} />
-          <Route path="career" element={<Career />} />
-          <Route path="contact" element={<Contact />} />
-          <Route path="*" element={<NoMatch />} />
-        </Route>
-      </Routes>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Layout />}>
+            <Route index element={<Home />} />
+            <Route path="about" element={<About />} />
+            <Route path="photo" element={<Photo />} />
+            <Route path="career" element={<Career />} />
+            <Route path="contact" element={<Contact />} />
+            <Route path="*" element={<NoMatch />} />
+          </Route>
+        </Routes>
+      </BrowserRouter>
+      
     </div>
   );
 }

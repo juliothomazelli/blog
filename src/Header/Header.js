@@ -5,11 +5,11 @@ import { Fragment } from 'react'
 
 const Header = () => {
   const navigation = [
-    { name: 'Feed', href: '#', current: true },
-    { name: 'Carreira', href: '#', current: false },
-    { name: 'Fotos', href: '#', current: false },
-    { name: 'Contato', href: '#', current: false },
-    { name: 'Sobre', href: '#', current: false },
+    { name: 'Feed', href: '/', current: true },
+    { name: 'Carreira', href: '/career', current: false },
+    { name: 'Fotos', href: '/photo', current: false },
+    { name: 'Contato', href: '/contact', current: false },
+    { name: 'Sobre', href: '/about', current: false },
   ]
   
   function classNames(...classes) {
@@ -35,8 +35,8 @@ const Header = () => {
                 </div>
                 <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
                   <div className="flex flex-shrink-0 items-center">
-                    <img className="block h-8 w-auto lg:hidden" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500" alt="Your Company" />
-                    <img className="hidden h-8 w-auto lg:block" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500" alt="Your Company" />
+                    {/* <img className="block h-8 w-auto lg:hidden" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500" alt="Your Company" />
+                    <img className="hidden h-8 w-auto lg:block" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500" alt="Your Company" /> */}
                   </div>
                   <div className="hidden sm:ml-6 sm:block">
                     <div className="flex space-x-4">
@@ -49,7 +49,7 @@ const Header = () => {
                             'px-3 py-2 rounded-md text-sm font-medium'
                           )}
                           aria-current={item.current ? 'page' : undefined}
-                        >
+                          >
                           {item.name}
                         </a>
                       ))}

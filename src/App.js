@@ -8,8 +8,8 @@ import Career from "./pages/career";
 import Contact from "./pages/contact";
 import About from "./pages/about";
 
-import Footer from "./footer/Footer";
-import Header from "./header/Header";
+import Footer from "./Footer/Footer";
+import Header from "./Header/Header";
 
 
 

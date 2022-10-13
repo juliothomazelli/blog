@@ -3,7 +3,7 @@ import * as React from "react";
 const Photo02_full = require("../assets/photo02-full.jpeg");
 const Photo03      = require("../assets/photo03.jpeg");
 const Photo04      = require("../assets/photo04.jpeg");
-const Photo04      = require("../assets/photo04.jpeg");
+const Photo05      = require("../assets/photo05.jpeg");
 
 export default function Photo() {
   return (

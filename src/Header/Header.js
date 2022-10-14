@@ -1,20 +1,87 @@
-import React from "react";
-import { Disclosure, Menu, Transition } from '@headlessui/react'
-import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
-import { Fragment } from 'react'
+import React, { useState, useEffect, } from 'react';
+import { Disclosure, } from '@headlessui/react'
+import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import { Link } from "react-router-dom";
 
 const Header = () => {
-  const navigation = [
-    { name: 'Feed', href: '/', current: true },
-    { name: 'Carreira', href: '/career', current: false },
-    { name: 'Fotos', href: '/photo', current: false },
-    { name: 'Contato', href: '/contact', current: false },
-    { name: 'Sobre', href: '/about', current: false },
-  ]
+  const [navigation, setNavigation] = useState([
+      { name: 'Feed', href: '/', current: true },
+      { name: 'Carreira', href: '/career', current: false },
+      { name: 'Fotos', href: '/photo', current: false },
+      { name: 'Contato', href: '/contact', current: false },
+      { name: 'Sobre', href: '/about', current: false },
+    ]);
+
+    useEffect(() => {
+    for (const item of navigation){
+      item.current = false;
+    }
+  }, []);
   
   function classNames(...classes) {
     return classes.filter(Boolean).join(' ')
+  }
+
+  function changeScreen(screen){
+    if (screen.name === "Feed"){
+      setNavigation(
+        [
+          { name: 'Feed', href: '/', current: true },
+          { name: 'Carreira', href: '/career', current: false },
+          { name: 'Fotos', href: '/photo', current: false },
+          { name: 'Contato', href: '/contact', current: false },
+          { name: 'Sobre', href: '/about', current: false },
+        ]
+      );
+    }
+
+    if (screen.name === "Carreira"){
+      setNavigation(
+        [
+          { name: 'Feed', href: '/', current: false },
+          { name: 'Carreira', href: '/career', current: true },
+          { name: 'Fotos', href: '/photo', current: false },
+          { name: 'Contato', href: '/contact', current: false },
+          { name: 'Sobre', href: '/about', current: false },
+        ]
+      );
+    }
+
+    if (screen.name === "Fotos"){
+      setNavigation(
+        [
+          { name: 'Feed', href: '/', current: false },
+          { name: 'Carreira', href: '/career', current: false },
+          { name: 'Fotos', href: '/photo', current: true },
+          { name: 'Contato', href: '/contact', current: false },
+          { name: 'Sobre', href: '/about', current: false },
+        ]
+      );
+    }
+
+    if (screen.name === "Contato"){
+      setNavigation(
+        [
+          { name: 'Feed', href: '/', current: false },
+          { name: 'Carreira', href: '/career', current: false },
+          { name: 'Fotos', href: '/photo', current: false },
+          { name: 'Contato', href: '/contact', current: true },
+          { name: 'Sobre', href: '/about', current: false },
+        ]
+      );
+    }
+
+    if (screen.name === "Sobre"){
+      setNavigation(
+        [
+          { name: 'Feed', href: '/', current: false },
+          { name: 'Carreira', href: '/career', current: false },
+          { name: 'Fotos', href: '/photo', current: false },
+          { name: 'Contato', href: '/contact', current: false },
+          { name: 'Sobre', href: '/about', current: true },
+        ]
+      );
+    }
   }
 
   return (
@@ -42,22 +109,22 @@ const Header = () => {
                   <div className="hidden sm:ml-6 sm:block">
                     <div className="flex space-x-4">
                       {navigation.map((item) => (
-                        <Link className={classNames(item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white','px-3 py-2 rounded-md text-sm font-medium')} onLoad={() => {console.log("message")}} to={item.href}>{item.name}</Link>
+                        <Link className={classNames(item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white','px-3 py-2 rounded-md text-sm font-medium')} onClick={() => {changeScreen(item)}} to={item.href}>{item.name}</Link>
                       ))}
                     </div>
                   </div>
                 </div>
                 <div className="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
-                  <button
+                  {/* <button
                     type="button"
                     className="rounded-full bg-gray-800 p-1 text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800"
                   >
                     <span className="sr-only">View notifications</span>
                     <BellIcon className="h-6 w-6" aria-hidden="true" />
-                  </button>
+                  </button> */}
 
                   {/* Profile dropdown */}
-                  <Menu as="div" className="relative ml-3">
+                  {/* <Menu as="div" className="relative ml-3">
                     <div>
                       <Menu.Button className="flex rounded-full bg-gray-800 text-sm focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800">
                         <span className="sr-only">Open user menu</span>
@@ -101,7 +168,7 @@ const Header = () => {
                         </Menu.Item>
                       </Menu.Items>
                     </Transition>
-                  </Menu>
+                  </Menu> */}
                 </div>
               </div>
             </div>
@@ -109,8 +176,8 @@ const Header = () => {
             <Disclosure.Panel className="sm:hidden">
               <div className="space-y-1 px-2 pt-2 pb-3">
                 {navigation.map((item) => (
-                  <Disclosure.Button key={item.name} as="a" href={item.href} className={classNames(item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white', 'block px-3 py-2 rounded-md text-base font-medium')} aria-current={item.current ? 'page' : undefined}>
-                    {item.name}
+                  <Disclosure.Button key={item.name} className={classNames(item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white', 'block px-3 py-2 rounded-md text-base font-medium')} aria-current={item.current ? 'page' : undefined}>
+                    <Link className={classNames(item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white','px-3 py-2 rounded-md text-sm font-medium')} onClick={() => {changeScreen(item)}} to={item.href}>{item.name}</Link>
                   </Disclosure.Button>
                 ))}
               </div>

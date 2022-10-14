@@ -11,12 +11,6 @@ const Header = () => {
       { name: 'Contato', href: '/contact', current: false },
       { name: 'Sobre', href: '/about', current: false },
     ]);
-
-    useEffect(() => {
-    for (const item of navigation){
-      item.current = false;
-    }
-  }, []);
   
   function classNames(...classes) {
     return classes.filter(Boolean).join(' ')

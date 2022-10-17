@@ -103,7 +103,7 @@ const Header = () => {
                   <div className="hidden sm:ml-6 sm:block">
                     <div className="flex space-x-4">
                       {navigation.map((item) => (
-                        <Link className={classNames(item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white','px-3 py-2 rounded-md text-sm font-medium')} onClick={() => {changeScreen(item)}} to={item.href}>{item.name}</Link>
+                        <Link id={item.name} className={classNames(item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white','px-3 py-2 rounded-md text-sm font-medium')} onClick={() => {changeScreen(item)}} to={item.href}>{item.name}</Link>
                       ))}
                     </div>
                   </div>
@@ -171,7 +171,7 @@ const Header = () => {
               <div className="space-y-1 px-2 pt-2 pb-3">
                 {navigation.map((item) => (
                   <Disclosure.Button key={item.name} className={classNames(item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white', 'block px-3 py-2 rounded-md text-base font-medium')} aria-current={item.current ? 'page' : undefined}>
-                    <Link className={classNames(item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white','px-3 py-2 rounded-md text-sm font-medium')} onClick={() => {changeScreen(item)}} to={item.href}>{item.name}</Link>
+                    <Link id={item.name} className={classNames(item.current ? 'bg-gray-900 text-white' : 'text-gray-300 hover:bg-gray-700 hover:text-white','px-3 py-2 rounded-md text-sm font-medium')} onClick={() => {changeScreen(item)}} to={item.href}>{item.name}</Link>
                   </Disclosure.Button>
                 ))}
               </div>

@@ -11,6 +11,7 @@ const Photo09      = require("../assets/photo09.jpeg");
 const Photo10      = require("../assets/photo10.jpeg");
 const Photo11      = require("../assets/photo11.jpeg");
 const Photo12      = require("../assets/photo12.jpeg");
+const Photo13      = require("../assets/photo13.png");
 
 export default function Photo() {
   return (
@@ -21,11 +22,11 @@ export default function Photo() {
       <div class="container lg:px-32 px-4 py-8 mx-auto items-center ">
         <div class="grid grid-cols-4 grid-rows-4 grid-flow-col gap-2">
           <div class="w-full row-span-2">
-            <img src={Photo06} alt="Casamento do meu irmão." class="inset-0 h-full w-full object-cover object-center rounded hover:scale-110 cursor-pointer"/>
+            <img src={Photo13} alt="Casamento do meu irmão." class="inset-0 h-full w-full object-cover object-center rounded hover:scale-110 cursor-pointer"/>
           </div>
           <div class="w-full col-span-2 row-span-2">
             <img
-              src={Photo02_full}
+              src={Photo12}
               alt="Photo by Claudio Schwarz on Unsplash"
               class="inset-0 h-full w-full object-cover object-center rounded hover:scale-110 cursor-pointer"/>
           </div>

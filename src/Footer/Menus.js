@@ -1,5 +1,5 @@
 export const PRODUCTS = [
-  { name: "Leia mais", link: "#" },
+  { name: "Leia mais", link: "career" },
   { name: "Objetivos futuros", link: "#" }
 ];
 

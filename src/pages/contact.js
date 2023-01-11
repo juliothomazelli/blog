@@ -1,5 +1,4 @@
 import * as React from "react";
-import Carousel from "../components/carousel";
 
 const Photo10      = require("../assets/photo10.jpeg");
 const Photo11      = require("../assets/photo11.jpeg");

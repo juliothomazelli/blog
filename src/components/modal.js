@@ -1,6 +1,6 @@
 import React, { useState, useEffect, } from 'react';
 
-import Carousel from "../components/carousel";
+import Carousel from "./carousel";
 
 export default function Modal(props) {
   const [image, setImage] = useState(1);

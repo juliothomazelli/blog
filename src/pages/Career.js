@@ -3,7 +3,7 @@ import * as React from "react";
 export default function Career() {
   return (
     <div>
-      <article className="m-5 bg-gray rounded-lg border border-gray-200 shadow-2xl">
+      <article className="m-3 bg-gray rounded-lg border border-gray-200 shadow-2xl">
         <div className="lg:flex p-5">
           <ol class="relative m-7 border-l border-gray-200 dark:border-gray-700">
             <li class="mb-10 ml-6">
@@ -21,8 +21,10 @@ export default function Career() {
               <time class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
                 08/03/2021 - ABERTO
               </time>
-              <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
-                ANALISTA DE DESENVOLVIMENTO DE SISTEMAS
+              <p class="text-gray-500 dark:text-gray-400">ANALISTA DE DESENVOLVIMENTO DE SISTEMAS. <a href="#" class="inline-flex items-center font-medium text-blue-600 dark:text-blue-500 hover:underline">
+                  Ler mais
+                  <svg aria-hidden="true" class="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                </a>
               </p>
             </li>
 
@@ -39,12 +41,13 @@ export default function Career() {
                 25/06/2019 - 05/03/2021
               </time>
               <p class="text-base font-normal text-gray-500 dark:text-gray-400">
-                PROGRAMADOR DE SISTEMAS DE INFORMAÇÃO
+                
               </p>
-              <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-bold text-center text-blue-600 bg-blue-200 rounded-lg hover:bg-blue-900 hover:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-              Leia mais
-              <svg aria-hidden="true" class="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
-            </a>
+              <p class="text-gray-500 dark:text-gray-400">PROGRAMADOR DE SISTEMAS DE INFORMAÇÃO. <a href="#" class="inline-flex items-center font-medium text-blue-600 dark:text-blue-500 hover:underline">
+                  Ler mais
+                  <svg aria-hidden="true" class="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                </a>
+              </p>
             </li>
 
             <li class="ml-6">
@@ -59,8 +62,10 @@ export default function Career() {
               <time class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
                 15/01/2018 - 21/06/2019
               </time>
-              <p class="text-base font-normal text-gray-500 dark:text-gray-400">
-                PROGRAMADOR DE SISTEMAS DE INFORMAÇÃO
+              <p class="text-gray-500 dark:text-gray-400">PROGRAMADOR DE SISTEMAS DE INFORMAÇÃO. <a href="#" class="inline-flex items-center font-medium text-blue-600 dark:text-blue-500 hover:underline">
+                  Ler mais
+                  <svg aria-hidden="true" class="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                </a>
               </p>
             </li>
           </ol>
@@ -68,4 +73,8 @@ export default function Career() {
       </article>
     </div>
   );
+}
+
+function openJobDetail(job){
+    
 }

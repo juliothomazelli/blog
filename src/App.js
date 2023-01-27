@@ -5,11 +5,11 @@ import './App.css';
 import Home from "./pages/Home";
 import Photo from "./pages/Photo";
 import Career from "./pages/Career";
-import Contact from "./pages/Contact";
 import About from "./pages/About";
 
 import Footer from "./footer/Footer";
 import Header from "./header/Header";
+import Certification from "./pages/Certification";
 
 export default function App() {
   return (
@@ -21,7 +21,7 @@ export default function App() {
             <Route path="about" element={<About />} />
             <Route path="photo" element={<Photo />} />
             <Route path="career" element={<Career />} />
-            <Route path="contact" element={<Contact />} />
+            <Route path="certification" element={<Certification />} />
             <Route path="*" element={<NoMatch />} />
           </Route>
         </Routes>

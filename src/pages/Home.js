@@ -9,9 +9,9 @@ export default function Home() {
   return (
     <div>
       <article className="m-3 bg-gray rounded-lg border border-gray-200 shadow-2xl">
-        <div class="m-5 container py-5 mx-auto">
-          <div class="lg:-mx-6 lg:flex lg:items-center">
-              <img class="object-cover w-full lg:mx-6 lg:w-1/2 rounded-xl h-48 lg:h-72" src={WelcomeBanner} alt=""/>
+        <div className="m-5 container py-5 mx-auto">
+          <div className="lg:-mx-6 lg:flex lg:items-center">
+              <img className="object-cover w-full lg:mx-6 lg:w-1/2 rounded-xl h-48 lg:h-72" src={WelcomeBanner} alt=""/>
 
             <div class="mt-6 lg:w-1/2 lg:mt-0 lg:mx-6 ">
                 <a href="#" class="block mt-4 text-2xl font-semibold text-gray-800 hover:underline dark:text-white md:text-3xl">

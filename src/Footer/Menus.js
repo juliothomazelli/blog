@@ -9,7 +9,6 @@ export const RESOURCES = [
 ];
 
 export const SUPPORT = [
-  { name: "Contatos", link: "#" },
   { name: "Sobre", link: "#" }
 ];
 

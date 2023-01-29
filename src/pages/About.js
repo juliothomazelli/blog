@@ -1,5 +1,7 @@
 import * as React from "react";
+import { useEffect, useState } from "react";
 import { Alert, Modal, Accordion, Button, Carousel } from "flowbite-react";
+import Email from "../utils/Email";
 
 const Photo10      = require("../assets/photo10.jpeg");
 const Photo11      = require("../assets/photo11.jpeg");
@@ -10,6 +12,15 @@ const WelcomeImage     = require("../assets/photo02.jpeg");
 const WelcomeBanner    = require("../assets/welcome-banner.png");
 
 export default function About() {
+  const [emailData, setEmailData] = useState({});
+
+  function sendEmail(){
+    let email = new Email();
+  
+  
+    email.sendMessage();
+  }
+
   return (
     <div>
         <div className="p-5 lg:px-20 lg:mt-5 container py-5 mx-auto">
@@ -136,7 +147,7 @@ export default function About() {
                     <textarea rows="6" placeholder="Mensagem" class="text-body-color border-[f0f0f0] focus:border-primary w-full resize-none rounded border py-3 px-[14px] text-base outline-none focus-visible:shadow-none"></textarea>
                   </div>
                   <div>
-                  <Button className="w-96">
+                  <Button className="w-96" onClick={() => {sendEmail()}}>
                     Enviar
                     <svg aria-hidden="true" className="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clipRule="evenodd"></path></svg>
                   </Button>

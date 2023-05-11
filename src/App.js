@@ -7,8 +7,8 @@ import Photo from "./pages/Photo";
 import Career from "./pages/Career";
 import About from "./pages/About";
 
-import Footer from "./footer/Footer";
-import Header from "./header/Header";
+import Footer from "./Footer/Footer";
+import Header from "./Header/Header";
 import Certification from "./pages/Certification";
 
 export default function App() {

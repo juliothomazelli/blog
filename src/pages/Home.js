@@ -8,8 +8,8 @@ const WelcomeBanner    = require("../assets/welcome-banner.png");
 export default function Home() {
   return (
     <div>
-      <article className="m-3 bg-gray rounded-lg border border-gray-200 shadow-2xl">
-        <div className="m-5 container py-5 mx-auto">
+      {/* <article className="m-3 bg-gray rounded-lg border border-gray-200 shadow-2xl"> */}
+        <div className="m-5 container p-5 mx-auto">
           <div className="lg:-mx-6 lg:flex lg:items-center">
               <img className="object-cover w-full lg:mx-6 lg:w-1/2 rounded-xl h-48 lg:h-72" src={WelcomeBanner} alt=""/>
 
@@ -36,7 +36,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </article>
+      {/* </article> */}
     </div>
   );
 }

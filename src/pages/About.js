@@ -75,10 +75,10 @@ export default function About() {
             <div class="w-full px-4 lg:w-1/2 xl:w-6/12">
               <div class="mb-12 max-w-[570px] lg:mb-0">
                 <span class="text-primary mb-4 block text-base font-semibold">
-                  Contate-nos
+                  Contate-me
                 </span>
                 <h2 class="text-dark mb-6 text-[32px] font-bold uppercase sm:text-[40px] lg:text-[36px] xl:text-[40px]">
-                  ENTRE EM CONTATO CONOSCO
+                  CONTATOS
                 </h2>
                 <p class="text-body-color mb-9 text-base leading-relaxed">
                   Abaixo deixo algumas informações de contato, e se preferir uma mensagem rápida, há um formulário na lateral direita da página:
@@ -139,9 +139,6 @@ export default function About() {
                   </div>
                   <div class="mb-6">
                     <input type="email" placeholder="Email" class="text-body-color border-[f0f0f0] focus:border-primary w-full rounded border py-3 px-[14px] text-base outline-none focus-visible:shadow-none"/>
-                  </div>
-                  <div class="mb-6">
-                    <input type="text" placeholder="Telefone" class="text-body-color border-[f0f0f0] focus:border-primary w-full rounded border py-3 px-[14px] text-base outline-none focus-visible:shadow-none"/>
                   </div>
                   <div class="mb-6">
                     <textarea rows="6" placeholder="Mensagem" class="text-body-color border-[f0f0f0] focus:border-primary w-full resize-none rounded border py-3 px-[14px] text-base outline-none focus-visible:shadow-none"></textarea>

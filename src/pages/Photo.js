@@ -19,11 +19,40 @@ export default function Photo() {
 
   return (
     <div>
-      <div class="2xl:container 2xl:mx-auto md:py-12 lg:px-20 md:px-6 py-9 px-4">
-        <div class="text-center">
-          <h2 class="font-semibold dark:text-white lg:text-4xl text-3xl lg:leading-9 md:leading-7 leading-9 text-gray-800 md:w-full w-9/12 mx-auto">Galeria de fotos</h2>
-          <p class="font-normal text-base leading-6 dark:text-gray-400 text-gray-600 mt-4 lg:w-5/12 md:w-9/12 mx-auto">Esses são alguns dos lugares em que já visitei!</p>
+      <div class="p-4 mx-auto max-w-6xl">
+        <h2 class="pb-4  font-bold text-center text-gray-800 text-4xl dark:text-gray-400">
+          Minha galeria
+        </h2>
+        <div class="mx-auto mb-10 border-b border-red-700 w-44 dark:border-gray-400"></div>
+        <div class="grid grid-cols-1 lg:grid-cols-4 md:grid-cols-2 gap-6 mt-8">
+          <div class="relative rounded-md shadow-sm overflow-hidden group">
+            <img src={Photo07} alt="A picture of a sitting dog" class="group-hover:origin-center group-hover:scale-110 group-hover:rotate-3 shadow-2xl object-cover w-full rounded-lg h-96 transition duration-500" />
+            <div class="absolute inset-0 h-96 group-hover:bg-black opacity-50 transition duration-500 z-0">
+            </div>
+            <div>
+              <div class=" absolute z-10 hidden group-hover:block top-4 right-4">
+                <a href="#"
+                  class="btn bg-orange-600 hover:bg-orange-700 border-orange-600 hover:border-orange-700 text-white btn-icon rounded-full lightbox">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-camera" viewBox="0 0 16 16">
+                    {/* <path
+                      d="M15 12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h1.172a3 3 0 0 0 2.12-.879l.83-.828A1 1 0 0 1 6.827 3h2.344a1 1 0 0 1 .707.293l.828.828A3 3 0 0 0 12.828 5H14a1 1 0 0 1 1 1v6zM2 4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-1.172a2 2 0 0 1-1.414-.586l-.828-.828A2 2 0 0 0 9.172 2H6.828a2 2 0 0 0-1.414.586l-.828.828A2 2 0 0 1 3.172 4H2z" /> */}
+                    {/* <path
+                      d="M8 11a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5zm0 1a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7zM3 6.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0z" /> */}
+                  </svg>
+                </a>
+              </div>
+              <div class="absolute z-10 hidden group-hover:block bottom-4 left-4">
+                <a href=""
+                  class="h6 text-lg font-medium text-white hover:text-blue-300 transition duration-500">
+                  São Francisco do Sul</a>
+                <p class="text-gray-300 text-xs mb-0">Noite de ano novo - 2021</p>
+              </div>
+            </div>
+          </div>
         </div>
+
+        {/*  */}
 
         <div class="grid lg:grid-cols-4 sm:grid-cols-2 grid-cols-1 lg:grap-8 md:gap-6 gap-4 mt-10 cursor-pointer">
           <div class="relative group" onClick={() => { openModal() }}>
@@ -55,7 +84,7 @@ export default function Photo() {
             </div>
           </div>
         </div>
-      
+
         <div class="grid lg:grid-cols-4 sm:grid-cols-2 grid-cols-1 lg:grap-8 md:gap-6 gap-4 mt-10 cursor-pointer">
           <div class="relative group" onClick={() => { openModal() }}>
             <img src={Photo07} alt="A picture of a sitting dog" class="shadow-2xl object-cover w-full rounded-lg h-96" />

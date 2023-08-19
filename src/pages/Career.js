@@ -21,13 +21,13 @@ export default function Career() {
                   </div>
                 </div>
               </div>
-              <p class="mb-16 text-base text-center text-gray-500">
+              <p class="mb-16 text-base text-center">
                 Abaixo compartilho um pouco da minha história na area de sistemas de informação.
               </p>
             </div>
           </div>
           <div class="w-full mx-auto lg:max-w-1xl">
-            <div class="relative flex justify-between cursor-pointer">
+            <div class="relative flex justify-between">
               <div class="hidden py-3 w-36 md:block ">
                 <h2 class="text-base font-medium text-gray-700 dark:text-gray-400">Analista de desenvolvimento de sistemas</h2>
               </div>
@@ -46,18 +46,49 @@ export default function Career() {
                 </div>
                 <div class="relative z-20 p-6">
                   <div class="absolute -top-4 -left[-30px]  lg:top-0 lg:left-0 inline-block px-2 py-2.5 dark:bg-blue-500 bg-blue-600 rounded-md lg:rounded-br-md lg:rounded-tl-md">
-                    <span class="text-xs text-gray-100">08/03/2021 - Atual</span>
+                    <span class="text-x text-gray-100">08/03/2021 - Atual</span>
                   </div>
                   <p class="mt-4 mb-2 text-xl font-bold text-gray-600 lg:mt-8 dark:text-gray-400">
-                    CLINICORP SERVIÇOS S.A
+                    CLINICORP SERVIÇOS S.A.
                   </p>
                   <p class="text-gray-700 dark:text-gray-500">
-                    Fintech
+                    Minha primeira experiência na area de tecnologia foi na Dessis, aprendendo e desenvolvendo aplicações em Delphi tanto para o
+                    <span className="italic"> Client Side</span> quanto para o
+                    <span className="italic"> Server Side</span>.
+
+                    <h2 class="mt-4 text-base font-medium text-gray-700">Tecnologias e atribuições:</h2>
+
+                    <ol class="mt-4 space-y-4 list-decimal list-inside">
+                      <li>
+                        NodeJS
+                        <ul class="pl-5 mt-2 space-y-1 list-disc list-inside">
+                          <li>Desenvolvimento de soluções para os setores industriais e contabilidades.</li>
+                          <li>Solucionando bugs do sistema de códigos legados e novos incorporados.</li>
+                          <li>Desenvolvimento de novas funcionalidades e componentes.</li>
+                        </ul>
+                      </li>
+                      <li>
+                        MySQL
+                        <ul class="pl-5 mt-2 space-y-1 list-disc list-inside">
+                          <li>Indices / Triggers / Procedures / Views / Joins.</li>
+                          <li>Implantação e criação de base de dados zeradas para novos clientes adquiridos.</li>
+                          <li>Performando bases de dados dos clientes para .</li>
+                        </ul>
+                      </li>
+                      <li>
+                        JavaScript
+                        <ul class="pl-5 mt-2 space-y-1 list-disc list-inside">
+                          <li>Desenvolvimento de relatórios para visualização de dados pelo cliente.</li>
+                          <li>Nobody wants to look at this.</li>
+                          <li>I'm upset that we even have to bother styling this.</li>
+                        </ul>
+                      </li>
+                    </ol>
                   </p>
                 </div>
               </div>
             </div>
-            <div class="relative flex justify-between cursor-pointer">
+            <div class="relative flex justify-between">
               <div class="hidden py-3 w-36 md:block ">
                 <h2 class="text-base font-medium text-gray-700 dark:text-gray-400">Programador de sistemas de informação</h2>
               </div>
@@ -76,54 +107,139 @@ export default function Career() {
                 </div>
                 <div class="relative z-20 p-6">
                   <div class="absolute -top-4 -left[-30px]  lg:top-0 lg:left-0 inline-block px-2 py-2.5  dark:bg-blue-500 bg-blue-600 rounded-md lg:rounded-br-md lg:rounded-tl-md">
-                    <span class="text-xs text-gray-100">25/06/2019 - 05/03/2021</span>
+                    <span class="text-x text-gray-100">25/06/2019 - 05/03/2021</span>
                   </div>
                   <p class="mt-4 mb-2 text-xl font-bold text-gray-600 lg:mt-8 dark:text-gray-400">
-                    VOCE PEDE SOFTWARES PARA BARES E RESTAURANTES LTDA
+                    VOCE PEDE SOFTWARES PARA BARES E RESTAURANTES LTDA.
                   </p>
                   <p class="text-gray-700 dark:text-gray-500">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                    incididunt ut
-                    labore et dolore magna aliqua.
+                    Focado no desenvolvimento de soluções para bares e restaurantes, voce pede foi uma empresa onde pude adquirir um conhecimento muito expressivo 
+                    em algumas Stacks e que impulsionaram meu desenvolvimento de sistemas.
+                  </p>
+
+                  <p class="text-gray-700 dark:text-gray-500">
+                    <h2 class="mt-4 text-base font-medium text-gray-700">Tecnologias e atribuições:</h2>
+
+                    <ol class="mt-4 space-y-4 list-decimal list-inside">
+                      <li>
+                        NodeJS
+                        <ul class="pl-5 mt-2 space-y-1 list-disc list-inside">
+                          <li>Desenvolvimento de soluções para os setores industriais e contabilidades.</li>
+                          <li>Solucionando bugs do sistema de códigos legados e novos incorporados.</li>
+                          <li>Desenvolvimento de novas funcionalidades e componentes.</li>
+                        </ul>
+                      </li>
+                      <li>
+                        Pascal
+                        <ul class="pl-5 mt-2 space-y-1 list-disc list-inside">
+                          <li>Desenvolvimento de API's que serão consumidas pelas aplicações internas.</li>
+                          <li>Integração de API's com IFood.</li>
+                          <li>I'm upset that we even have to bother styling this.</li>
+                        </ul>
+                      </li>
+                      <li>
+                        Firebird / PostgreSQL
+                        <ul class="pl-5 mt-2 space-y-1 list-disc list-inside">
+                          <li>Indices / Triggers / Procedures / Views / Joins.</li>
+                          <li>Implantação e criação de base de dados zeradas para novos clientes adquiridos.</li>
+                          <li>Performando bases de dados dos clientes para .</li>
+                        </ul>
+                      </li>
+                      <li>
+                        Angular
+                        <ul class="pl-5 mt-2 space-y-1 list-disc list-inside">
+                          <li>Desenvolvimento de relatórios para visualização de dados pelo cliente.</li>
+                          <li>Nobody wants to look at this.</li>
+                          <li>I'm upset that we even have to bother styling this.</li>
+                        </ul>
+                      </li>
+                      <li>
+                        Ionic
+                        <ul class="pl-5 mt-2 space-y-1 list-disc list-inside">
+                          <li>Desenvolvimento do aplicativo móvel utilizado por clientes finais.</li>
+                          <li>Nobody wants to look at this.</li>
+                          <li>I'm upset that we even have to bother styling this.</li>
+                        </ul>
+                      </li>
+                      <li>
+                        TypeScript / JavaScript
+                        <ul class="pl-5 mt-2 space-y-1 list-disc list-inside">
+                          <li>Desenvolvimento de relatórios para visualização de dados pelo cliente.</li>
+                          <li>Nobody wants to look at this.</li>
+                          <li>I'm upset that we even have to bother styling this.</li>
+                        </ul>
+                      </li>
+                      <li>
+                        Java (Android)
+                        <ul class="pl-5 mt-2 space-y-1 list-disc list-inside">
+                          <li>Desenvolvimento do aplicativo móvel (Mobile) utilizado pelos Garçons.</li>
+                          <li>Desenvolvimento do aplicativo móvel (Mobile) utilizado pelos Garçons.</li>
+                        </ul>
+                      </li>
+                    </ol>
                   </p>
                 </div>
               </div>
             </div>
 
-            <div class="relative overflow-hidden group">
-              <div class="relative flex justify-between cursor-pointer">
-                <div class="hidden py-3 w-36 md:block">
-                  <h2 class="text-base font-medium text-gray-700 dark:text-gray-400">Programador de sistemas de informação</h2>
+            <div class="relative flex justify-between">
+              <div class="hidden py-3 w-36 md:block ">
+                <h2 class="text-base font-medium text-gray-700 dark:text-gray-400">Programador de sistemas de informação</h2>
+              </div>
+              <div class="flex flex-col items-center w-10 mr-4 md:w-24">
+                <div>
+                  <div class="flex items-center justify-center w-10 h-10  dark:border-blue-400">
+                    <img className="border border-blue-500 rounded-full" src={dessisLogo} />
+                  </div>
                 </div>
-                <div class="flex flex-col items-center w-10 mr-4 md:w-24">
-                  <div>
-                    <div class="flex items-center justify-center w-10 h-10 dark:border-blue-400">
-                      <img className="border border-blue-500 rounded-full" src={dessisLogo} />
-                    </div>
+                <div class="w-px h-full bg-blue-300"></div>
+              </div>
+              <div class="relative flex-1 mb-10 bg-white rounded shadow lg:mb-8 dark:bg-gray-900">
+                <div class="absolute inline-block w-4 overflow-hidden -translate-y-1/2 top-7 -left-4">
+                  <div class="hidden h-10 origin-top-right transform -rotate-45 bg-blue-600 dark:bg-blue-500 lg:block drop-shadow-lg">
                   </div>
-                  <div class="w-px h-full bg-blue-300"></div>
                 </div>
-                <div class="relative flex-1 mb-10 bg-white rounded shadow lg:mb-8 dark:bg-gray-900">
-                  <div class="lg:absolute inline-block w-4 overflow-hidden -translate-y-1/2 top-7 -left-4">
-                    <div class="hidden h-10 origin-top-right transform -rotate-45 bg-blue-600 dark:bg-blue-500 lg:block drop-shadow-lg">
-                    </div>
+                <div class="relative z-20 p-6">
+                  <div class="absolute -top-4 -left[-30px]  lg:top-0 lg:left-0 inline-block px-2 py-2.5  dark:bg-blue-500 bg-blue-600 rounded-md lg:rounded-br-md lg:rounded-tl-md">
+                    <span class="text-x text-gray-100">25/06/2019 - 05/03/2021</span>
                   </div>
-                  <div class="relative z-20 p-6">
-                    <div class="absolute -top-4 -left[-30px]  lg:top-0 lg:left-0 inline-block px-2 py-2.5  dark:bg-blue-500 bg-blue-600 rounded-md lg:rounded-br-md lg:rounded-tl-md">
-                      <span class="text-xs text-gray-100">15/01/2017 - 21/06/2019</span>
-                    </div>
-                    <p class="mt-4 mb-2 text-xl font-bold text-gray-600 lg:mt-8 dark:text-gray-400 group-hover:text-white">
-                      DESSIS INFORMÁTICA LTDA
-                    </p>
-                    <p class="text-gray-700 dark:text-gray-500 group-hover:text-white">
-                      Minha primeira experiência na area de tecnologia foi na Dessis, aprendendo e desenvolvendo aplicações em Delphi tanto para o <span className="italic">Client Side</span> quanto para o <span className="italic">Server Side</span>.
-                    </p>
-                  </div>
-                  <div class="absolute inset-0 z-0 group-hover:bg-black opacity-50 rounded">
-                    <div class="absolute hidden p-4 text-center content left-4 bottom-4 right-4 group-hover:block">
-                    <svg aria-hidden="true" className="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fillRule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clipRule="evenodd"></path></svg>
-                    </div>
-                  </div>
+                  <p class="mt-4 mb-2 text-xl font-bold text-gray-600 lg:mt-8 dark:text-gray-400">
+                    DESSIS INFORMÁTICA LTDA.
+                  </p>
+                  <p class="text-gray-700 dark:text-gray-500">
+                  Minha primeira experiência na area de tecnologia foi na Dessis, aprendendo e desenvolvendo aplicações em Delphi tanto para o
+                    <span className="italic"> Client Side</span> quanto para o
+                    <span className="italic"> Server Side</span>.
+                  </p>
+                  <p class="text-gray-700 dark:text-gray-500">
+                    <h2 class="mt-4 text-base font-medium text-gray-700">Tecnologias e atribuições:</h2>
+
+                    <ol class="mt-4 space-y-4 list-decimal list-inside">
+                      <li>
+                        Delphi
+                        <ul class="pl-5 mt-2 space-y-1 list-disc list-inside">
+                          <li>Desenvolvimento de soluções para os setores industriais e contábeis.</li>
+                          <li>Solucionando bugs do sistema de códigos legados e novos incorporados.</li>
+                          <li>Desenvolvimento de novas funcionalidades, features e componentes que agregam o ERP.</li>
+                        </ul>
+                      </li>
+                      <li>
+                        SQL Server / Firebird
+                        <ul class="pl-5 mt-2 space-y-1 list-disc list-inside">
+                          <li>Indices / Triggers / Procedures / Views / Joins / Sub-Selects.</li>
+                          <li>Implantação e criação de base de dados zeradas para novos clientes adquiridos.</li>
+                          <li>Performando e manipulando base de dados de clientes.</li>
+                          <li>Incorporando consultas, análises e inserções para dentro do sistema como regras de negócios de novas features.</li>
+                        </ul>
+                      </li>
+                      <li>
+                        Report Builder (BI)
+                        <ul class="pl-5 mt-2 space-y-1 list-disc list-inside">
+                          <li>Desenvolvimento de relatórios para visualização de dados pelo cliente.</li>
+                        </ul>
+                      </li>
+                    </ol>
+                  </p>
                 </div>
               </div>
             </div>

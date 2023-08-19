@@ -12,13 +12,14 @@ const WelcomeImage     = require("../assets/photo02.jpeg");
 const WelcomeBanner    = require("../assets/welcome-banner.png");
 
 export default function About() {
-  const [emailData, setEmailData] = useState({});
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
 
-  function sendEmail(){
-    let email = new Email();
+  async function sendEmail(){
+    let emailService = new Email();
   
-  
-    email.sendMessage();
+    await emailService.sendMessage({ name, email, message });
   }
 
   return (
@@ -74,9 +75,6 @@ export default function About() {
           <div class="-mx-4 flex flex-wrap lg:justify-between">
             <div class="w-full px-4 lg:w-1/2 xl:w-6/12">
               <div class="mb-12 max-w-[570px] lg:mb-0">
-                <span class="text-primary mb-4 block text-base font-semibold">
-                  Contate-me
-                </span>
                 <h2 class="text-dark mb-6 text-[32px] font-bold uppercase sm:text-[40px] lg:text-[36px] xl:text-[40px]">
                   CONTATOS
                 </h2>
@@ -135,13 +133,13 @@ export default function About() {
               <div class="relative rounded-lg bg-white p-8 shadow-lg sm:p-12">
                 <form>
                   <div class="mb-6">
-                    <input type="text" placeholder="Nome" class="text-body-color border-[f0f0f0] focus:border-primary w-full rounded border py-3 px-[14px] text-base outline-none focus-visible:shadow-none"/>
+                    <input type="text" placeholder="Nome" class="text-body-color border-[f0f0f0] focus:border-primary w-full rounded border py-3 px-[14px] text-base outline-none focus-visible:shadow-none" value={name} onChange={(e) => {setName(e.target.value)}}/>
                   </div>
                   <div class="mb-6">
-                    <input type="email" placeholder="Email" class="text-body-color border-[f0f0f0] focus:border-primary w-full rounded border py-3 px-[14px] text-base outline-none focus-visible:shadow-none"/>
+                    <input type="email" placeholder="Email" class="text-body-color border-[f0f0f0] focus:border-primary w-full rounded border py-3 px-[14px] text-base outline-none focus-visible:shadow-none" value={email} onChange={(e) => {setEmail(e.target.value)}}/>
                   </div>
                   <div class="mb-6">
-                    <textarea rows="6" placeholder="Mensagem" class="text-body-color border-[f0f0f0] focus:border-primary w-full resize-none rounded border py-3 px-[14px] text-base outline-none focus-visible:shadow-none"></textarea>
+                    <textarea rows="6" placeholder="Mensagem" class="text-body-color border-[f0f0f0] focus:border-primary w-full resize-none rounded border py-3 px-[14px] text-base outline-none focus-visible:shadow-none" value={message} onChange={(e) => {setMessage(e.target.value)}}></textarea>
                   </div>
                   <div>
                   <Button className="w-96" onClick={() => {sendEmail()}}>

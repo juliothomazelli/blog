@@ -113,8 +113,8 @@ export default function Career() {
                     VOCE PEDE SOFTWARES PARA BARES E RESTAURANTES LTDA.
                   </p>
                   <p class="text-gray-700 dark:text-gray-500">
-                    Focado no desenvolvimento de soluções para bares e restaurantes, voce pede foi uma empresa onde pude adquirir um conhecimento muito expressivo 
-                    em algumas Stacks e que impulsionaram meu desenvolvimento de sistemas.
+                    Focado no desenvolvimento de novas soluções para bares e restaurantes, <span className="italic">Voce Pede</span> foi uma empresa onde pude adquirir um conhecimento muito expressivo 
+                    em algumas Stacks e regras de negócio que impulsionaram minha carreira como desenvolvedor de sistemas.
                   </p>
 
                   <p class="text-gray-700 dark:text-gray-500">
@@ -122,27 +122,24 @@ export default function Career() {
 
                     <ol class="mt-4 space-y-4 list-decimal list-inside">
                       <li>
-                        NodeJS
+                        NodeJS - (TypeScript)
                         <ul class="pl-5 mt-2 space-y-1 list-disc list-inside">
-                          <li>Desenvolvimento de soluções para os setores industriais e contabilidades.</li>
-                          <li>Solucionando bugs do sistema de códigos legados e novos incorporados.</li>
-                          <li>Desenvolvimento de novas funcionalidades e componentes.</li>
+                          <li>Desenvolver um sistema de monitoramento de problemas e falhas que ocorrem nas aplicações principais.</li>
                         </ul>
                       </li>
                       <li>
                         Pascal
                         <ul class="pl-5 mt-2 space-y-1 list-disc list-inside">
-                          <li>Desenvolvimento de API's que serão consumidas pelas aplicações internas.</li>
-                          <li>Integração de API's com IFood.</li>
-                          {/* <li>I'm upset that we even have to bother styling this.</li> */}
+                          <li>Desenvolver API's que serão consumidas pelas aplicações internas.</li>
+                          <li>Integração de API's com IFood e UberEats para acompanhamento de pedidos feitos pelo aplicativo do Ifood para o estabelecimento.</li>
+                          <li>Desenvolver uma aplicação que fique rodando em segundo plano para sincronizar dados se o sistema ficar desconectado de internet.</li>
                         </ul>
                       </li>
                       <li>
                         Firebird / PostgreSQL
                         <ul class="pl-5 mt-2 space-y-1 list-disc list-inside">
                           <li>Indices / Triggers / Procedures / Views / Joins.</li>
-                          <li>Implantação e criação de base de dados zeradas para novos clientes adquiridos.</li>
-                          <li>Performando bases de dados dos clientes para .</li>
+                          <li>Incorporar consultas, análises e inserções para dentro do sistema como regras de negócios de novas features.</li>
                         </ul>
                       </li>
                       <li>
@@ -156,24 +153,15 @@ export default function Career() {
                       <li>
                         Ionic
                         <ul class="pl-5 mt-2 space-y-1 list-disc list-inside">
-                          <li>Desenvolvimento do aplicativo móvel utilizado por clientes finais.</li>
-                          <li>Nobody wants to look at this.</li>
-                          {/* <li>I'm upset that we even have to bother styling this.</li> */}
-                        </ul>
-                      </li>
-                      <li>
-                        TypeScript / JavaScript
-                        <ul class="pl-5 mt-2 space-y-1 list-disc list-inside">
-                          <li>Desenvolvimento de relatórios para visualização de dados pelo cliente.</li>
-                          <li>Nobody wants to look at this.</li>
-                          {/* <li>I'm upset that we even have to bother styling this.</li> */}
+                          <li>Desenvolver do zero até a implantação final do software utilizados por cliente finais.</li>
+                          <li>Software desenvolvido para clientes finais solicitarem pedidos de lanches e demais comidas, semelhante ao Ifood.</li>
                         </ul>
                       </li>
                       <li>
                         Java (Android)
                         <ul class="pl-5 mt-2 space-y-1 list-disc list-inside">
-                          <li>Desenvolvimento de aplicações do aplicativo móvel (Mobile) utilizado pelos Garçons.</li>
-                          <li>Desenvolvimento do aplicativo móvel (Mobile) utilizado pelos Garçons.</li>
+                          <li>Desenvolver aplicações para aplicativo móvel (Mobile) utilizado por Garçons.</li>
+                          <li>Desenvolver features como carrinho, mesas, cardápios e algumas outras funcionalidades utilizadas por Garçons no momento do atendimento.</li>
                         </ul>
                       </li>
                     </ol>

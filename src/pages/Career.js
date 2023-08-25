@@ -114,7 +114,7 @@ export default function Career() {
                   </p>
                   <p class="text-gray-700 dark:text-gray-500">
                     Focado no desenvolvimento de novas soluções para bares e restaurantes, <span className="italic">Voce Pede</span> foi uma empresa onde pude adquirir um conhecimento muito expressivo 
-                    em algumas Stacks e regras de negócio que impulsionaram minha carreira como desenvolvedor de sistemas.
+                    em algumas <span className="italic">Stacks</span> e regras de negócio que impulsionaram minha carreira como desenvolvedor de sistemas.
                   </p>
 
                   <p class="text-gray-700 dark:text-gray-500">
@@ -132,7 +132,7 @@ export default function Career() {
                         <ul class="pl-5 mt-2 space-y-1 list-disc list-inside">
                           <li>Desenvolver API's que serão consumidas pelas aplicações internas.</li>
                           <li>Integração de API's com IFood e UberEats para acompanhamento de pedidos feitos pelo aplicativo do Ifood para o estabelecimento.</li>
-                          <li>Desenvolver uma aplicação que fique rodando em segundo plano para sincronizar dados se o sistema ficar desconectado de internet.</li>
+                          <li>Prestar suporte e manter uma aplicação que fique rodando em segundo plano para sincronizar dados se o sistema ficar desconectado de internet.</li>
                         </ul>
                       </li>
                       <li>

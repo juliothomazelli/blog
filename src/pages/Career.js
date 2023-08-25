@@ -145,9 +145,9 @@ export default function Career() {
                       <li>
                         Angular
                         <ul class="pl-5 mt-2 space-y-1 list-disc list-inside">
-                          <li>Desenvolvimento de relatórios para visualização de dados pelo cliente.</li>
-                          <li>Nobody wants to look at this.</li>
-                          {/* <li>I'm upset that we even have to bother styling this.</li> */}
+                          <li>Desenvolver e manter features para o sistema Web dos clientes (Bares e Restaurantes).</li>
+                          <li>Features desenvolvidas como Mesas, Relatórios, Cupom de desconto.</li>
+                          <li>Parte visual das integrações de API's (Ifood & UberEats) realizadas para acompanhamento de pedidos.</li>
                         </ul>
                       </li>
                       <li>

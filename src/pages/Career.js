@@ -52,9 +52,9 @@ export default function Career() {
                     CLINICORP SERVIÇOS S.A.
                   </p>
                   <p class="text-gray-700 dark:text-gray-500">
-                    Minha primeira experiência na area de tecnologia foi na Dessis, aprendendo e desenvolvendo aplicações em Delphi tanto para o
-                    <span className="italic"> Client Side</span> quanto para o
-                    <span className="italic"> Server Side</span>.
+                    Com o desafio e oportunidade de trabalhar em uma <span className="italic">Fintech</span>, Clinicorp está sendo meu trabalho atual, la trabalho há aproximadamente 2 anos e pouco.
+                    Focado principalmente na parte do <span className="italic">Backend</span>, analiso e presto suporte a novas features incorporados, como a resolução de Bugs em código, ajustes em banco de dados e suporte ao cliente
+                    em casos urgentes como problemas e dúvidas.
 
                     <h2 class="mt-4 text-base font-medium text-gray-700">Tecnologias e atribuições:</h2>
 
@@ -62,25 +62,22 @@ export default function Career() {
                       <li>
                         NodeJS
                         <ul class="pl-5 mt-2 space-y-1 list-disc list-inside">
-                          <li>Desenvolvimento de soluções para os setores industriais e contabilidades.</li>
-                          <li>Solucionando bugs do sistema de códigos legados e novos incorporados.</li>
-                          <li>Desenvolvimento de novas funcionalidades e componentes.</li>
+                          <li>Desenvolver API's para o Backend em que o sistema principal utiliza para visualização de dados e regras.</li>
+                          <li>Solucionar bugs do sistema de códigos legados e novos incorporados.</li>
+                          <li>Integrar com API's Gateways de financeiras que servem como ponte para criação de contas e pagamentos.</li>
                         </ul>
                       </li>
                       <li>
                         MySQL
                         <ul class="pl-5 mt-2 space-y-1 list-disc list-inside">
                           <li>Indices / Triggers / Procedures / Views / Joins.</li>
-                          <li>Implantação e criação de base de dados zeradas para novos clientes adquiridos.</li>
-                          <li>Performando bases de dados dos clientes para .</li>
+                          <li>Incorporar consultas, análises e inserções para dentro do sistema como regras de negócios de novas features.</li>
                         </ul>
                       </li>
                       <li>
-                        JavaScript
+                        React - (JavaScript)
                         <ul class="pl-5 mt-2 space-y-1 list-disc list-inside">
-                          <li>Desenvolvimento de relatórios para visualização de dados pelo cliente.</li>
-                          <li>Nobody wants to look at this.</li>
-                          {/* <li>I'm upset that we even have to bother styling this.</li> */}
+                          <li>Manter e desenvolver telas que necessitem de alguma melhoria ou ajuste.</li>
                         </ul>
                       </li>
                     </ol>

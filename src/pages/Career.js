@@ -80,7 +80,7 @@ export default function Career() {
                         <ul class="pl-5 mt-2 space-y-1 list-disc list-inside">
                           <li>Desenvolvimento de relatórios para visualização de dados pelo cliente.</li>
                           <li>Nobody wants to look at this.</li>
-                          <li>I'm upset that we even have to bother styling this.</li>
+                          {/* <li>I'm upset that we even have to bother styling this.</li> */}
                         </ul>
                       </li>
                     </ol>
@@ -134,7 +134,7 @@ export default function Career() {
                         <ul class="pl-5 mt-2 space-y-1 list-disc list-inside">
                           <li>Desenvolvimento de API's que serão consumidas pelas aplicações internas.</li>
                           <li>Integração de API's com IFood.</li>
-                          <li>I'm upset that we even have to bother styling this.</li>
+                          {/* <li>I'm upset that we even have to bother styling this.</li> */}
                         </ul>
                       </li>
                       <li>
@@ -150,7 +150,7 @@ export default function Career() {
                         <ul class="pl-5 mt-2 space-y-1 list-disc list-inside">
                           <li>Desenvolvimento de relatórios para visualização de dados pelo cliente.</li>
                           <li>Nobody wants to look at this.</li>
-                          <li>I'm upset that we even have to bother styling this.</li>
+                          {/* <li>I'm upset that we even have to bother styling this.</li> */}
                         </ul>
                       </li>
                       <li>
@@ -158,7 +158,7 @@ export default function Career() {
                         <ul class="pl-5 mt-2 space-y-1 list-disc list-inside">
                           <li>Desenvolvimento do aplicativo móvel utilizado por clientes finais.</li>
                           <li>Nobody wants to look at this.</li>
-                          <li>I'm upset that we even have to bother styling this.</li>
+                          {/* <li>I'm upset that we even have to bother styling this.</li> */}
                         </ul>
                       </li>
                       <li>
@@ -166,7 +166,7 @@ export default function Career() {
                         <ul class="pl-5 mt-2 space-y-1 list-disc list-inside">
                           <li>Desenvolvimento de relatórios para visualização de dados pelo cliente.</li>
                           <li>Nobody wants to look at this.</li>
-                          <li>I'm upset that we even have to bother styling this.</li>
+                          {/* <li>I'm upset that we even have to bother styling this.</li> */}
                         </ul>
                       </li>
                       <li>

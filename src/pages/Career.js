@@ -172,7 +172,7 @@ export default function Career() {
                       <li>
                         Java (Android)
                         <ul class="pl-5 mt-2 space-y-1 list-disc list-inside">
-                          <li>Desenvolvimento do aplicativo móvel (Mobile) utilizado pelos Garçons.</li>
+                          <li>Desenvolvimento de aplicações do aplicativo móvel (Mobile) utilizado pelos Garçons.</li>
                           <li>Desenvolvimento do aplicativo móvel (Mobile) utilizado pelos Garçons.</li>
                         </ul>
                       </li>
@@ -207,7 +207,7 @@ export default function Career() {
                     DESSIS INFORMÁTICA LTDA.
                   </p>
                   <p class="text-gray-700 dark:text-gray-500">
-                  Minha primeira experiência na area de tecnologia foi na Dessis, aprendendo e desenvolvendo aplicações em Delphi tanto para o
+                    Minha primeira experiência na area de tecnologia foi na Dessis, aprendendo e desenvolvendo aplicações em Delphi tanto para o
                     <span className="italic"> Client Side</span> quanto para o
                     <span className="italic"> Server Side</span>.
                   </p>
@@ -218,24 +218,24 @@ export default function Career() {
                       <li>
                         Delphi
                         <ul class="pl-5 mt-2 space-y-1 list-disc list-inside">
-                          <li>Desenvolvimento de soluções para os setores industriais e contábeis.</li>
-                          <li>Solucionando bugs do sistema de códigos legados e novos incorporados.</li>
-                          <li>Desenvolvimento de novas funcionalidades, features e componentes que agregam o ERP.</li>
+                          <li>Desenvolver soluções para os setores industriais e contábeis.</li>
+                          <li>Solucionar bugs do sistema de códigos legados e novos incorporados recentemente.</li>
+                          <li>Desenvolver novas funcionalidades, features e componentes que agreguem ao ERP.</li>
                         </ul>
                       </li>
                       <li>
                         SQL Server / Firebird
                         <ul class="pl-5 mt-2 space-y-1 list-disc list-inside">
                           <li>Indices / Triggers / Procedures / Views / Joins / Sub-Selects.</li>
-                          <li>Implantação e criação de base de dados zeradas para novos clientes adquiridos.</li>
-                          <li>Performando e manipulando base de dados de clientes.</li>
-                          <li>Incorporando consultas, análises e inserções para dentro do sistema como regras de negócios de novas features.</li>
+                          <li>Implantar e desenvolver de base de dados zeradas para novos clientes.</li>
+                          <li>Performar e manipular base de dados de clientes.</li>
+                          <li>Incorporar consultas, análises e inserções para dentro do sistema como regras de negócios de novas features.</li>
                         </ul>
                       </li>
                       <li>
                         Report Builder (BI)
                         <ul class="pl-5 mt-2 space-y-1 list-disc list-inside">
-                          <li>Desenvolvimento de relatórios para visualização de dados pelo cliente.</li>
+                          <li>Desenvolver relatórios para visualização de dados pelo cliente.</li>
                         </ul>
                       </li>
                     </ol>

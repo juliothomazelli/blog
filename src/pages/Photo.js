@@ -108,7 +108,7 @@ export default function Photo() {
                 <a href=""
                   class="h6 text-lg font-medium text-white hover:text-blue-300 transition duration-500">
                   Jaraguá do Sul</a>
-                <p class="text-gray-300 text-xs mb-0">Minha Bicleta - 2022</p>
+                <p class="text-gray-300 text-xs mb-0">Minha Bicicleta - 2022</p>
               </div>
             </div>
           </div>

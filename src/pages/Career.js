@@ -186,7 +186,7 @@ export default function Career() {
                 </div>
                 <div class="relative z-20 p-6">
                   <div class="absolute -top-4 -left[-30px]  lg:top-0 lg:left-0 inline-block px-2 py-2.5  dark:bg-blue-500 bg-blue-600 rounded-md lg:rounded-br-md lg:rounded-tl-md">
-                    <span class="text-x text-gray-100">25/06/2019 - 05/03/2021</span>
+                    <span class="text-x text-gray-100">10/08/2017 - 21/06/2019</span>
                   </div>
                   <p class="mt-4 mb-2 text-xl font-bold text-gray-600 lg:mt-8 dark:text-gray-400">
                     DESSIS INFORMÁTICA LTDA.

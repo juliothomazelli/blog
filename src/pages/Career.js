@@ -52,9 +52,9 @@ export default function Career() {
                     CLINICORP SERVIÇOS S.A.
                   </p>
                   <p class="text-gray-700 dark:text-gray-500">
-                    Minha primeira experiência na area de tecnologia foi na Dessis, aprendendo e desenvolvendo aplicações em Delphi tanto para o
-                    <span className="italic"> Client Side</span> quanto para o
-                    <span className="italic"> Server Side</span>.
+                    Com o desafio e oportunidade de trabalhar em uma <span className="italic">Fintech</span>, Clinicorp está sendo meu trabalho atual, la trabalho há aproximadamente 2 anos e pouco.
+                    Focado principalmente na parte do <span className="italic">Backend</span>, analiso e presto suporte a novas features incorporados, como a resolução de Bugs em código, ajustes em banco de dados e suporte ao cliente
+                    em casos urgentes como problemas e dúvidas.
 
                     <h2 class="mt-4 text-base font-medium text-gray-700">Tecnologias e atribuições:</h2>
 
@@ -62,25 +62,22 @@ export default function Career() {
                       <li>
                         NodeJS
                         <ul class="pl-5 mt-2 space-y-1 list-disc list-inside">
-                          <li>Desenvolvimento de soluções para os setores industriais e contabilidades.</li>
-                          <li>Solucionando bugs do sistema de códigos legados e novos incorporados.</li>
-                          <li>Desenvolvimento de novas funcionalidades e componentes.</li>
+                          <li>Desenvolver API's para o Backend em que o sistema principal utiliza para visualização de dados e regras.</li>
+                          <li>Solucionar bugs do sistema de códigos legados e novos incorporados.</li>
+                          <li>Integrar com API's Gateways de financeiras que servem como ponte para criação de contas e pagamentos.</li>
                         </ul>
                       </li>
                       <li>
                         MySQL
                         <ul class="pl-5 mt-2 space-y-1 list-disc list-inside">
                           <li>Indices / Triggers / Procedures / Views / Joins.</li>
-                          <li>Implantação e criação de base de dados zeradas para novos clientes adquiridos.</li>
-                          <li>Performando bases de dados dos clientes para .</li>
+                          <li>Incorporar consultas, análises e inserções para dentro do sistema como regras de negócios de novas features.</li>
                         </ul>
                       </li>
                       <li>
-                        JavaScript
+                        React - (JavaScript)
                         <ul class="pl-5 mt-2 space-y-1 list-disc list-inside">
-                          <li>Desenvolvimento de relatórios para visualização de dados pelo cliente.</li>
-                          <li>Nobody wants to look at this.</li>
-                          <li>I'm upset that we even have to bother styling this.</li>
+                          <li>Manter e desenvolver telas que necessitem de alguma melhoria ou ajuste.</li>
                         </ul>
                       </li>
                     </ol>
@@ -113,8 +110,8 @@ export default function Career() {
                     VOCE PEDE SOFTWARES PARA BARES E RESTAURANTES LTDA.
                   </p>
                   <p class="text-gray-700 dark:text-gray-500">
-                    Focado no desenvolvimento de soluções para bares e restaurantes, voce pede foi uma empresa onde pude adquirir um conhecimento muito expressivo 
-                    em algumas Stacks e que impulsionaram meu desenvolvimento de sistemas.
+                    Focado no desenvolvimento de novas soluções para bares e restaurantes, <span className="italic">Voce Pede</span> foi uma empresa onde pude adquirir um conhecimento muito expressivo 
+                    em algumas <span className="italic">Stacks</span> e regras de negócio que impulsionaram minha carreira como desenvolvedor de sistemas.
                   </p>
 
                   <p class="text-gray-700 dark:text-gray-500">
@@ -122,58 +119,46 @@ export default function Career() {
 
                     <ol class="mt-4 space-y-4 list-decimal list-inside">
                       <li>
-                        NodeJS
+                        NodeJS - (TypeScript)
                         <ul class="pl-5 mt-2 space-y-1 list-disc list-inside">
-                          <li>Desenvolvimento de soluções para os setores industriais e contabilidades.</li>
-                          <li>Solucionando bugs do sistema de códigos legados e novos incorporados.</li>
-                          <li>Desenvolvimento de novas funcionalidades e componentes.</li>
+                          <li>Desenvolver um sistema de monitoramento de problemas e falhas que ocorrem nas aplicações principais.</li>
                         </ul>
                       </li>
                       <li>
                         Pascal
                         <ul class="pl-5 mt-2 space-y-1 list-disc list-inside">
-                          <li>Desenvolvimento de API's que serão consumidas pelas aplicações internas.</li>
-                          <li>Integração de API's com IFood.</li>
-                          <li>I'm upset that we even have to bother styling this.</li>
+                          <li>Desenvolver API's que serão consumidas pelas aplicações internas.</li>
+                          <li>Integração de API's com IFood e UberEats para acompanhamento de pedidos feitos pelo aplicativo do Ifood para o estabelecimento.</li>
+                          <li>Prestar suporte e manter uma aplicação que fique rodando em segundo plano para sincronizar dados se o sistema ficar desconectado de internet.</li>
                         </ul>
                       </li>
                       <li>
                         Firebird / PostgreSQL
                         <ul class="pl-5 mt-2 space-y-1 list-disc list-inside">
                           <li>Indices / Triggers / Procedures / Views / Joins.</li>
-                          <li>Implantação e criação de base de dados zeradas para novos clientes adquiridos.</li>
-                          <li>Performando bases de dados dos clientes para .</li>
+                          <li>Incorporar consultas, análises e inserções para dentro do sistema como regras de negócios de novas features.</li>
                         </ul>
                       </li>
                       <li>
                         Angular
                         <ul class="pl-5 mt-2 space-y-1 list-disc list-inside">
-                          <li>Desenvolvimento de relatórios para visualização de dados pelo cliente.</li>
-                          <li>Nobody wants to look at this.</li>
-                          <li>I'm upset that we even have to bother styling this.</li>
+                          <li>Desenvolver e manter features para o sistema Web dos clientes (Bares e Restaurantes).</li>
+                          <li>Features desenvolvidas como Mesas, Relatórios, Cupom de desconto.</li>
+                          <li>Parte visual das integrações de API's (Ifood & UberEats) realizadas para acompanhamento de pedidos.</li>
                         </ul>
                       </li>
                       <li>
                         Ionic
                         <ul class="pl-5 mt-2 space-y-1 list-disc list-inside">
-                          <li>Desenvolvimento do aplicativo móvel utilizado por clientes finais.</li>
-                          <li>Nobody wants to look at this.</li>
-                          <li>I'm upset that we even have to bother styling this.</li>
-                        </ul>
-                      </li>
-                      <li>
-                        TypeScript / JavaScript
-                        <ul class="pl-5 mt-2 space-y-1 list-disc list-inside">
-                          <li>Desenvolvimento de relatórios para visualização de dados pelo cliente.</li>
-                          <li>Nobody wants to look at this.</li>
-                          <li>I'm upset that we even have to bother styling this.</li>
+                          <li>Desenvolver do zero até a implantação final do software utilizados por cliente finais.</li>
+                          <li>Software desenvolvido para clientes finais solicitarem pedidos de lanches e demais comidas, semelhante ao Ifood.</li>
                         </ul>
                       </li>
                       <li>
                         Java (Android)
                         <ul class="pl-5 mt-2 space-y-1 list-disc list-inside">
-                          <li>Desenvolvimento do aplicativo móvel (Mobile) utilizado pelos Garçons.</li>
-                          <li>Desenvolvimento do aplicativo móvel (Mobile) utilizado pelos Garçons.</li>
+                          <li>Desenvolver aplicações para aplicativo móvel (Mobile) utilizado por Garçons.</li>
+                          <li>Desenvolver features como carrinho, mesas, cardápios e algumas outras funcionalidades utilizadas por Garçons no momento do atendimento.</li>
                         </ul>
                       </li>
                     </ol>
@@ -201,13 +186,13 @@ export default function Career() {
                 </div>
                 <div class="relative z-20 p-6">
                   <div class="absolute -top-4 -left[-30px]  lg:top-0 lg:left-0 inline-block px-2 py-2.5  dark:bg-blue-500 bg-blue-600 rounded-md lg:rounded-br-md lg:rounded-tl-md">
-                    <span class="text-x text-gray-100">25/06/2019 - 05/03/2021</span>
+                    <span class="text-x text-gray-100">10/08/2017 - 21/06/2019</span>
                   </div>
                   <p class="mt-4 mb-2 text-xl font-bold text-gray-600 lg:mt-8 dark:text-gray-400">
                     DESSIS INFORMÁTICA LTDA.
                   </p>
                   <p class="text-gray-700 dark:text-gray-500">
-                  Minha primeira experiência na area de tecnologia foi na Dessis, aprendendo e desenvolvendo aplicações em Delphi tanto para o
+                    Minha primeira experiência na area de tecnologia foi na Dessis, aprendendo e desenvolvendo aplicações em Delphi tanto para o
                     <span className="italic"> Client Side</span> quanto para o
                     <span className="italic"> Server Side</span>.
                   </p>
@@ -219,17 +204,17 @@ export default function Career() {
                         Delphi
                         <ul class="pl-5 mt-2 space-y-1 list-disc list-inside">
                           <li>Desenvolver soluções para os setores industriais e contábeis.</li>
-                          <li>Solucionar bugs do sistema de códigos legados e novos incorporados.</li>
-                          <li>Desenvolver de novas funcionalidades, features e componentes que agregam o ERP.</li>
+                          <li>Solucionar bugs do sistema de códigos legados e novos incorporados recentemente.</li>
+                          <li>Desenvolver novas funcionalidades, features e componentes que agreguem ao ERP.</li>
                         </ul>
                       </li>
                       <li>
                         SQL Server / Firebird
                         <ul class="pl-5 mt-2 space-y-1 list-disc list-inside">
                           <li>Indices / Triggers / Procedures / Views / Joins / Sub-Selects.</li>
-                          <li>Implantação e criação de base de dados zeradas para novos clientes adquiridos.</li>
-                          <li>Performando e manipulando base de dados de clientes.</li>
-                          <li>Incorporando consultas, análises e inserções para dentro do sistema como regras de negócios de novas features.</li>
+                          <li>Implantar e desenvolver de base de dados zeradas para novos clientes.</li>
+                          <li>Performar e manipular base de dados de clientes.</li>
+                          <li>Incorporar consultas, análises e inserções para dentro do sistema como regras de negócios de novas features.</li>
                         </ul>
                       </li>
                       <li>

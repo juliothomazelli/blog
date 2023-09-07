@@ -218,9 +218,9 @@ export default function Career() {
                       <li>
                         Delphi
                         <ul class="pl-5 mt-2 space-y-1 list-disc list-inside">
-                          <li>Desenvolvimento de soluções para os setores industriais e contábeis.</li>
-                          <li>Solucionando bugs do sistema de códigos legados e novos incorporados.</li>
-                          <li>Desenvolvimento de novas funcionalidades, features e componentes que agregam o ERP.</li>
+                          <li>Desenvolver soluções para os setores industriais e contábeis.</li>
+                          <li>Solucionar bugs do sistema de códigos legados e novos incorporados.</li>
+                          <li>Desenvolver de novas funcionalidades, features e componentes que agregam o ERP.</li>
                         </ul>
                       </li>
                       <li>
@@ -235,7 +235,7 @@ export default function Career() {
                       <li>
                         Report Builder (BI)
                         <ul class="pl-5 mt-2 space-y-1 list-disc list-inside">
-                          <li>Desenvolvimento de relatórios para visualização de dados pelo cliente.</li>
+                          <li>Desenvolver relatórios para visualização de dados pelo cliente.</li>
                         </ul>
                       </li>
                     </ol>

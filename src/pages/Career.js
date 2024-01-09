@@ -212,7 +212,7 @@ export default function Career() {
                         SQL Server / Firebird
                         <ul class="pl-5 mt-2 space-y-1 list-disc list-inside">
                           <li>Indices / Triggers / Procedures / Views / Joins / Sub-Selects.</li>
-                          <li>Implantar e desenvolver de base de dados zeradas para novos clientes.</li>
+                          <li>Implantar e desenvolver base de dados zeradas para novos clientes.</li>
                           <li>Performar e manipular base de dados de clientes.</li>
                           <li>Incorporar consultas, análises e inserções para dentro do sistema como regras de negócios de novas features.</li>
                         </ul>

@@ -155,7 +155,7 @@ export default function Career() {
                         </ul>
                       </li>
                       <li>
-                        Java (Android)
+                        Java (Android Nativo)
                         <ul class="pl-5 mt-2 space-y-1 list-disc list-inside">
                           <li>Desenvolver aplicações para aplicativo móvel (Mobile) utilizado por Garçons.</li>
                           <li>Desenvolver features como carrinho, mesas, cardápios e algumas outras funcionalidades utilizadas por Garçons no momento do atendimento.</li>

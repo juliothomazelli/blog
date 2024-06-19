@@ -52,13 +52,13 @@ export default function Career() {
                     CLINICORP SERVIÇOS S.A.
                   </p>
                   <p class="text-gray-700 dark:text-gray-500">
-                  Como engenheiro de software na Clinicorp, sou responsável pelo desenvolvimento e manutenção de aplicações voltadas para o ramo de Fintech, com foco em desenvolver aplicações de POS e API Gateway de pagamento altamente escaláveis e robustos que atendam clínicas odontológicas.
+                    Como engenheiro de software na Clinicorp, sou responsável pelo desenvolvimento e manutenção de aplicações voltadas para o ramo de Fintech, com foco em desenvolver aplicações de POS e API Gateway de pagamento altamente escaláveis e robustos que atendam clínicas odontológicas.
 
-                  Desenvolvimento de Software: Projeto, codificação, teste e manutenção de funcionalidades para aplicações web usando JavaScript, React e Node.js.
+                    Desenvolvimento de Software: Projeto, codificação, teste e manutenção de funcionalidades para aplicações web usando JavaScript, React e Node.js.
 
-                  Colaboração em Equipe: Trabalho em conjunto com equipes de produto e design para definir especificações técnicas e desenvolver novas funcionalidades que melhoram a experiência do usuário.
+                    Colaboração em Equipe: Trabalho em conjunto com equipes de produto e design para definir especificações técnicas e desenvolver novas funcionalidades que melhoram a experiência do usuário.
 
-                  Revisão de Código: Realizo revisões de código regulares para garantir a qualidade do código e aderência às melhores práticas de desenvolvimento.
+                    Revisão de Código: Realizo revisões de código regulares para garantir a qualidade do código e aderência às melhores práticas de desenvolvimento.
 
                     <h2 class="mt-4 text-base font-medium text-gray-700">Tecnologias e atribuições:</h2>
 
@@ -114,8 +114,14 @@ export default function Career() {
                     VOCE PEDE SOFTWARES PARA BARES E RESTAURANTES LTDA.
                   </p>
                   <p class="text-gray-700 dark:text-gray-500">
-                    Focado no desenvolvimento de novas soluções para bares e restaurantes, <span className="italic">Voce Pede</span> foi uma empresa onde pude adquirir um conhecimento muito expressivo 
-                    em algumas <span className="italic">Stacks</span> e regras de negócio que impulsionaram minha carreira como desenvolvedor de sistemas.
+                  Como engenheiro de software na Voce pede - Softwares, fui responsável por desenvolver desde a concepção do produto até a implantação de produtos voltados para o setor alimentício como bares e restaurantes. 
+                  Alguns resultados notáveis como desenvolvimento de uma aplicação de pedidos pelos clientes, aplicações para gerenciamento de mesas e pedidos para garçons, integrações com API de Ifood e UberEats, monitoramento dos servidores em tempo real e entre outros que fizeram parte da minha jornada riquíssima de conhecimento nesta empresa.
+
+                  Desenvolvimento de Software: Projeto, codificação, teste e manutenção de funcionalidades para aplicações web usando TypeScript e NodeJS para servidores de monitoramento, Angular para o sistema utilizado para gerenciamento dos estabelecimentos, Object Pascal como servidores (Locais para sincronização e em Nuvem), Android para aplicativos utilizados pelos garçons e Ionic para pedidos de clientes finais.
+
+                  Concepção do produto: Estudo de possíveis novas funcionalidades que poderiam vir a agregar o produto, viabilidade e boa experiência ao usuário.
+
+                  Revisão de Código: Com uma equipe enxuta de somente dois desenvolvedores revisões de código regulares eram feitas para garantir a qualidade do código e aderência às melhores práticas de desenvolvimento.
                   </p>
 
                   <p class="text-gray-700 dark:text-gray-500">
@@ -196,9 +202,8 @@ export default function Career() {
                     DESSIS INFORMÁTICA LTDA.
                   </p>
                   <p class="text-gray-700 dark:text-gray-500">
-                    Minha primeira experiência na area de tecnologia foi na Dessis, aprendendo e desenvolvendo aplicações em Delphi tanto para o
-                    <span className="italic"> Client Side</span> quanto para o
-                    <span className="italic"> Server Side</span>.
+                    Sendo meu primeiro emprego na área de engenharia de software, na Dessis eu era responsável pelo desenvolvimento e manutenção de um sistema ERP voltado para empresas de grande porte como industrias têxteis, vidros, metais e contábeis. Algumas das minhas atuações na empresa foram o processo de implementação e configurações iniciais para novos clientes, organizando bases de dados e as 
+                    gerenciando, desenvolvimento de ferramentas de uso interno que proveram uma maior agilidade em processos feitos pelo suporte e uma pequena parcela do meu tempo na empresa dando manutenção para os processos de NFe, MDFe e CTe.
                   </p>
                   <p class="text-gray-700 dark:text-gray-500">
                     <h2 class="mt-4 text-base font-medium text-gray-700">Tecnologias e atribuições:</h2>

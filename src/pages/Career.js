@@ -52,9 +52,13 @@ export default function Career() {
                     CLINICORP SERVIÇOS S.A.
                   </p>
                   <p class="text-gray-700 dark:text-gray-500">
-                    Com o desafio e oportunidade de trabalhar em uma <span className="italic">Fintech</span>, Clinicorp está sendo meu trabalho atual, la trabalho há aproximadamente 2 anos e pouco.
-                    Focado principalmente na parte do <span className="italic">Backend</span>, analiso e presto suporte a novas features incorporados, como a resolução de Bugs em código, ajustes em banco de dados e suporte ao cliente
-                    em casos urgentes como problemas e dúvidas.
+                  Como engenheiro de software na Clinicorp, sou responsável pelo desenvolvimento e manutenção de aplicações voltadas para o ramo de Fintech, com foco em desenvolver aplicações de POS e API Gateway de pagamento altamente escaláveis e robustos que atendam clínicas odontológicas.
+
+                  Desenvolvimento de Software: Projeto, codificação, teste e manutenção de funcionalidades para aplicações web usando JavaScript, React e Node.js.
+
+                  Colaboração em Equipe: Trabalho em conjunto com equipes de produto e design para definir especificações técnicas e desenvolver novas funcionalidades que melhoram a experiência do usuário.
+
+                  Revisão de Código: Realizo revisões de código regulares para garantir a qualidade do código e aderência às melhores práticas de desenvolvimento.
 
                     <h2 class="mt-4 text-base font-medium text-gray-700">Tecnologias e atribuições:</h2>
 
